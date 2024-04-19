@@ -1,0 +1,85 @@
+.logo img {
+         margin-top: 10px;
+         border-radius: 100px;
+         width: 70px;
+         height: 70px;
+         margin-right: 10px;
+         border: 2px solid rgba(245, 245, 220, 0.411);
+      }
+   
+      
+      body {
+         background: linear-gradient(90deg, rgb(11, 11, 49) 0%, rgb(67, 65, 65) 100% );;
+         color: beige;
+      }
+
+      h2 {
+         border: 2px solid beige;  
+      }
+
+      h3 {
+         padding-left: 0px;
+         padding-top: 0px;
+      }
+       
+      .computer {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+      }
+
+      .fantasy {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+      }
+
+      .thriller {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+      }
+
+      .horror {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+      }
+
+      .hist {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+      }
+
+      .sci {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+      }
+
+      .box {
+         height: 100px;
+         width: 250px;
+         margin: 0 10px;
+         transition: 1s;
+      }
+
+      .box img {
+         display: block;
+         width: 100%;
+         height: 270px;
+         border-radius: 5px;
+         justify-content: center;
+      }
+
+      .box:hover {
+         transform: scale(1.3);
+         z-index: 2;
+      }
+      h1{
+         position: relative;
+         padding-left: 70px;
+         margin-top: 0px;
+         padding-top: 10px;
+      }

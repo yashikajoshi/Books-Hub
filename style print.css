@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poopins', sans-serif;
+}
+.content{
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+body {
+    background-image: url("back2.jpg");
+    background-size: cover;
+}
+
+h1 {
+    position: relative;
+    color: beige;
+    padding-left: 50px;
+    padding-top: 0%;
+}
+
+.logo img {
+    margin-top: 20px;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    position: fixed;
+    border: 2px solid rgba(245, 245, 220, 0.411);
+}
+
+header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+header .navbar {
+    padding-top: 0%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+section {
+    position: relative;
+    top: 255px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: beige;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 0%;
+    border-bottom: 3px solid transparent;
+    transition: border-boottom 0.3s;
+}
+
+.navbar a:hover {
+    background: rgba(44, 28, 101, 0.541);
+    border-bottom: 3px solid rgb(239, 231, 231);
+}
+
+/* .about {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    color: beige;
+} */
+.footer1{
+    margin-top: 410px;
+   }
+   .footer1 footer{
+    /* background-color: rgba(0, 0, 0, 0.658); */
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 02px;
+   }
+   .footer1 footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+   }
+   .footer1 .footer-icons a{
+    background-color: beige;
+    color: black;
+    padding: 10px;
+    border-radius: 150px;
+    display: flex;
+    font-size: 15px;
+}
+.footer1 .footer-icons a:hover{
+    color: rgba(44, 28, 101, 0.541);
+}
+.footer1 .footer-menue a{
+    color: beige;
+    text-decoration: none;
+}
+.footer1 .footer-menue a:hover{
+    color: wheat;
+}
+.footer1 .footer-copyrights{
+    background-color: beige;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+}
