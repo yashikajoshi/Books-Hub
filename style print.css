@@ -58,7 +58,7 @@ section {
 }
 
 .navbar a {
-    color: aliceblue;
+    color: beige;
     text-decoration: none;
     padding: 15px;
     padding-left: 10px;
@@ -69,7 +69,7 @@ section {
 
 .navbar a:hover {
     background: rgba(44, 28, 101, 0.541);
-    border-bottom: 3px solid rgb(239, 231, 231);
+    border-bottom: 3px solid beige;
 }
 
 /* .about {
