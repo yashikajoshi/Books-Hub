@@ -9,9 +9,11 @@
     backdrop-filter: blur(10px);
 }
 
-body {
-    background-image: url("back2.jpg");
+body{
+    min-height: 100vh;
+    background: url(Gemini_Generated_Image\ \(4\).jpeg) no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
  h1 {
