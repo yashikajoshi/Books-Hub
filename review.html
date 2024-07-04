@@ -11,12 +11,19 @@
       padding: 0;
       box-sizing: border-box; 
      }
+     html{
+      min-width: 100%;
+     }
      body{
       margin-top: 0px;
       padding-bottom: 0px;
       margin-bottom: 0px;
-     }
-    
+      background: linear-gradient(90deg,   rgb(11, 11, 49) 0%, rgb(67, 65, 65) 100% );
+   }
+   section{
+      display: flex;
+      flex-wrap: wrap;
+   }
      .logo img { 
          border-radius: 100px;
          width: 70px;
@@ -28,8 +35,7 @@
          background: linear-gradient(90deg,  rgb(11, 11, 49) 0%, rgb(67, 65, 65) 100% );
       }
      .wrapper{
-      background: linear-gradient(90deg,   rgb(11, 11, 49) 0%, rgb(67, 65, 65) 100% );
-      min-height: 100vh;
+      min-height: 100%;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
@@ -42,7 +48,6 @@
       font-size: 60px;
       font-weight: 500;
       margin: 40px 0;
-      
       text-align: center;
      }
      .wrapper h5{
@@ -57,8 +62,8 @@
       align-items: center;
       width:1000px;
       margin: 0 auto;
-     }
-     .card{
+   }
+   .card{
       width: 350px;
       height: 250px;
       border-radius: 15px;
@@ -92,34 +97,37 @@
    <img src="Gemini_Generated_Image (6).jpeg" usemap="#image24map"><map name="image24map"><area shape="default"
       href="index.html"></map>
 </div></header>
+
 <body>
-   
-   <div class="wrapper">
-      <h1>Our Happy Customers Rewiews</h1>
-      <h5>Check out what they want to tell about us...</h5>
-      <div class="cards">
-         <div class="card">
-            <img src="prami.jpg">
-            <p>-"I've had a fantastic experience with this ebook website. Not only do they offer a wide range of genres, but the customer service is top-notch. Anytime I've had an issue, they've been quick to respond and resolve it."
-            </p>
-            <h2><i>-Pramila Salunkhe</i></h2>
-            <h4>BCA</h4>
-         </div>
-         <div class="card">
-            <img src="shrushti.jpg">
-            <p>-"The layout is sleek and user-friendly, and I appreciate the curated collections that make discovering new titles a breeze. It's become my one-stop shop for all things digital reading."
-            </p>
-            <h2><i>-Shrushti Wankhede</i></h2>
-            <h4>BSC.CS</h4>
-         </div>
-         <div class="card">
-            <img src="nandu.jpg">
-            <p>-"Absolutely love this ebook website! The selection is vast, and the downloading process is super easy. Highly recommend!"
-            </p><br><br>
-            <h2><i>-Nandini Singh</i></h2>
-            <h4>BSC.CS</h4>
+   <section>
+
+      <div class="wrapper">
+         <h1>Our Happy Customers Rewiews</h1>
+         <h5>Check out what they want to tell about us...</h5>
+         <div class="cards">
+            <div class="card">
+               <img src="prami.jpg">
+               <p>-"I've had a fantastic experience with this ebook website. Not only do they offer a wide range of genres, but the customer service is top-notch. Anytime I've had an issue, they've been quick to respond and resolve it."
+               </p>
+               <h2><i>-Pramila Salunkhe</i></h2>
+               <h4>BCA</h4>
+            </div>
+            <div class="card">
+               <img src="shrushti.jpg">
+               <p>-"The layout is sleek and user-friendly, and I appreciate the curated collections that make discovering new titles a breeze. It's become my one-stop shop for all things digital reading."
+               </p>
+               <h2><i>-Shrushti Wankhede</i></h2>
+               <h4>BSC.CS</h4>
+            </div>
+            <div class="card">
+               <img src="nandu.jpg">
+               <p>-"Absolutely love this ebook website! The selection is vast, and the downloading process is super easy. Highly recommend!"
+               </p><br><br>
+               <h2><i>-Nandini Singh</i></h2>
+               <h4>BSC.CS</h4>
+            </div>
          </div>
       </div>
-   </div>
+   </section>
 </body>
 </html>
